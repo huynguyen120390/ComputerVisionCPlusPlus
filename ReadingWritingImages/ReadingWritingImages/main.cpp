@@ -24,6 +24,7 @@ int main(int argc, const char * argv[]) {
     
     imwrite("/Users/huynguyen/CodeLab/GitProjects/ComputerVisionCPlusPlus/ReadingWritingImages/Image/coloredDog.jpg",colorImage);
     imshow("Color Dog",colorImage);
+    waitKey(0);
     
     return 0;
 }
